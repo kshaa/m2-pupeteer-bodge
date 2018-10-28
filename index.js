@@ -20,6 +20,9 @@ const testPass = process.env.TEST_PASS;
 const testFirstname = process.env.TEST_FIRSTNAME;
 const testLastname = process.env.TEST_LASTNAME;
 
+const width = 1366;
+const height = 768;
+
 // Magento 2 "Register, login & purchase" test
 var browser;
 (async () => {
@@ -29,6 +32,7 @@ var browser;
     // Launch a browser & open the page
     browser = await puppeteer.launch();
     const page = await browser.newPage();
+    await page.setViewport({width, height});
 
     // Homepage
     logHelper.success(`Opening the homepage in a browser`);
