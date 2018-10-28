@@ -1,0 +1,11 @@
+# Generated test screenshots
+/screens
+
+# Node packages
+/node_modules
+
+# Secrets
+.env
+
+# No idea where, but this is auto-generated
+/register.js

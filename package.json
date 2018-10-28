@@ -1,0 +1,12 @@
+{
+  "name": "m2-puppeteer-qa",
+  "version": "1.0.0",
+  "description": "A Pupeteer & Axios script to fiddle around a Magento store.",
+  "main": "index.js",
+  "author": "Krisjanis Veinbahs",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "puppeteer": "^1.9.0"
+  }
+}
