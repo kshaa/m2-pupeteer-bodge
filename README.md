@@ -8,10 +8,9 @@ The goal was to simulate:
 - go through checkout.  
 
 I managed to simulate
-- registration
+- registration (Doesn't really count, because done through API, because of CAPTCHA)
 - logging in  
-
-And even that doesn't really count, because the registration was done through M2 API not through FE, because there's a CAPTCHA.
+- go to category page
 
 Doesn't matter though, learned a lot.
 
